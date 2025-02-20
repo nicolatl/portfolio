@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a.current {
-  border-bottom: 0.4em solid oklch(80% 3% 200);
+  border-bottom: 0.4em solid oklch(88% 3% 200);
   padding-bottom: 0.1em;
 }
 
@@ -88,4 +88,29 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
+}
+
+#resume {
+  background: var(--color-accent);
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#resume article {
+  background: white;
+  padding: 1.5rem;
+}
+
+#resume h2 {
+  color: white
+}
+
+#resume h3 {
+  color: var(--color-accent);
+  text-wrap: wrap;
+}
+
+#resume a {
+  text-decoration: none;
+  color: inherit;
 }
